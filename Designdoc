@@ -1,0 +1,159 @@
+Game Design Document
+
+Game Title: Project S
+
+Genre:
+
+Action Roguelike / Survival / S
+
+Target Audience:
+
+Casual gamers and hobby developers who enjoy quick, satisfying gameplay loops.
+
+Platform:
+
+PC (Windows, macOS, Linux), potential for web or mobile expansion.
+
+Overview:
+
+Monster Survivor is a fast-paced survival game where players control a character battling waves of monsters in an arena. The goal is to survive for as long as possible while upgrading abilities and discovering synergies between weapons and power-ups.
+
+Core Gameplay Loop:
+
+Spawn Monsters: Monsters spawn periodically and move toward the player.
+
+Player Movement: The player can move freely to avoid enemies and position for attacks.
+
+Automatic Attacks: The player's weapon attacks automatically at regular intervals.
+
+Collect XP Gems: Defeated enemies drop XP gems that the player collects to level up.
+
+Level Up & Upgrade: At each level-up, players choose 1 of 3 random upgrades to improve their abilities.
+
+Survive: Survive waves of increasingly difficult monsters until the timer ends or the player dies.
+
+Key Features:
+
+1. Simplified Controls:
+
+Movement: WASD or arrow keys.
+
+No manual attack or aiming – weapons fire automatically.
+
+2. Weapons & Power-Ups:
+
+Weapons:
+
+Sword Slash: Close-range attack that hits enemies in an arc.
+
+Magic Bolt: Shoots a bolt toward the nearest enemy.
+
+Fireball: Explodes on impact, damaging nearby enemies.
+
+Power-Ups:
+
+Health Regen: Slowly regenerates health over time.
+
+Increased Speed: Boosts movement speed.
+
+Damage Boost: Increases weapon damage by 20%.
+
+3. Enemies:
+
+Basic Enemy: Moves slowly toward the player; low health.
+
+Fast Enemy: Moves quickly but has low health.
+
+Tank Enemy: Moves slowly but has high health.
+
+Boss Enemy: Spawns every 2 minutes with high health and special attacks.
+
+4. Arena:
+
+Open arena with no walls to limit movement.
+
+Spawns items like health potions and temporary power-ups (e.g., increased damage for 10 seconds).
+
+Game Progression:
+
+Start: Player starts with one weapon and basic stats.
+
+Survive Waves: Monsters spawn in waves, with each wave increasing in difficulty (e.g., more enemies, faster spawn rates).
+
+Level Up: Players gain XP to upgrade weapons and power-ups.
+
+End: Game ends after 10 minutes (victory) or when the player dies.
+
+Art Style:
+
+2D Pixel Art: Simple, retro-inspired visuals.
+
+Characters & Enemies: Minimalistic designs (e.g., stick figure hero, simple monster shapes).
+
+Arena: Simple grassy field with scattered rocks and trees for decoration.
+
+Audio:
+
+Music: Upbeat, looping chiptune track to maintain energy.
+
+Sound Effects:
+
+Weapon attacks (e.g., sword slash, fireball explosions).
+
+Enemy deaths (e.g., subtle pop or crunch).
+
+Level-up and upgrade selection.
+
+Development Plan:
+
+1. Core Mechanics (Week 1-2):
+
+Player movement.
+
+Enemy spawning and movement.
+
+Basic weapon functionality (auto-attack).
+
+2. Progression (Week 3):
+
+XP collection and level-up system.
+
+Random upgrade selection.
+
+3. Content (Week 4):
+
+Add 3 enemy types.
+
+Implement 3 weapons and 3 power-ups.
+
+Timer and win/lose conditions.
+
+4. Polish (Week 5):
+
+Add simple animations and effects.
+
+Implement basic UI (health bar, XP bar, timer).
+
+Add sound effects and music.
+
+Tools & Technology:
+
+Game Engine: Unity (recommended for ease of use and community resources).
+
+Language: C#.
+
+Art: Aseprite (for pixel art), or use free asset packs.
+
+Audio: Bfxr (sound effect generator), or free sound libraries.
+
+Stretch Goals (Optional):
+
+Additional weapon types (e.g., lightning, poison cloud).
+
+Multiplayer mode (co-op survival).
+
+Procedurally generated arenas.
+
+Mobile or web deployment.
+
+This simplified design should make for a fun and manageable project for a hobby developer. Let me know if you'd like help with specific implementation details!
